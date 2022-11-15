@@ -1,0 +1,49 @@
+h1,  h2{
+    text-align: center;
+    
+}
+.navBar{
+    background-color: black;
+    overflow: hidden;
+}
+.navBar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navBar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .navBar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .navBar.icon {
+    display: none;
+  }
+  main{
+    background-color: cornflowerblue;
+  }
+  section{
+    width: fit-content;
+    height: fit-content;
+  }
+  img{
+    height: 250px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .footer{
+    background-color:blueviolet;
+  }
